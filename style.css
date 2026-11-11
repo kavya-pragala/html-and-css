@@ -1,0 +1,8 @@
+<label>
+ {
+  color: black;
+  font-family: sans-serif;
+}
+.color-changer:checked + label {
+  color:green;
+  font-weight: bold }

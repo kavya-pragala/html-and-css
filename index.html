@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Offbeat | Travel</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #fff8e9;
+  color:limegreen;
+}
+header {
+  background: slategray;
+  color: white;
+  padding: 20px 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header a {
+  color: white;
+  margin: 8px;
+  text-decoration: none;
+}
+.hero {
+  background:lightblue;
+  color:limegreen;
+  text-align: center;
+  padding: 85px 15px;
+}
+h1 { font-size: 50px; }
+h1, h2, h3 { font-family: Georgia; }
+button {
+  background: #d9ff43;
+  border: 0;
+  padding: 13px 22px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.places, .local, .reviews, .support {
+  padding: 45px 7%;
+}
+.places { background: #fff8e9; }
+.local { background: #d9ff43; }
+.reviews { background:hotpink }
+.support {
+  background:limegreen;
+  color: white;
+  text-align: center;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.card {
+  background: white;
+  color:limegreen;
+  padding-bottom: 15px;
+}
+.card img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+.card h3, .card p { margin: 12px; }
+.card p { line-height: 1.5; }
+.review {
+  background: #fff8e9;
+  padding: 22px;
+}
+.stars { color:hotpink }
+a { color: inherit; }
+footer {
+  background: limegreen;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+@media (max-width: 650px) {
+  header { display: block; }
+  header a { display: inline-block; }
+  .cards { grid-template-columns: 1fr; }
+  h1 { font-size: 38px; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1><i>OFFBEAT.</i></h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#places">Explore</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#local">Local Life</a>
+    <a href="#support">Support</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <p>LESS TOURISTY. MORE REAL.</p>
+  <h1>Take the road<br>less travelled.</h1>
+  <p>Hidden places, local stories and little adventures across India.</p>
+  <a href="#places"><button>LET'S WANDER ↗</button></a>
+</section>
+
+<section class="places" id="places">
+  <h2>Places worth getting lost in.</h2>
+  <p>For curious souls who love exploring differently.</p>
+
+  <div class="cards">
+    <div class="card">
+      <img src="C:\Users\ADMIN\Downloads\zv2.jfif" alt="Mountain landscape">
+      <h3>Ziro Valley</h3>
+      <p>Arunachal Pradesh — green hills and Apatani culture.</p>
+    </div>
+
+    <div class="card">
+      <img src="C:\Users\ADMIN\Downloads\r2.jfif" alt="Colourful Indian architecture">
+      <h3>Pushkar</h3>
+      <p>Rajasthan — colourful streets and local markets.</p>
+    </div>
+
+    <div class="card">
+      <img src="C:\Users\ADMIN\Downloads\m2.jfif" alt="Peaceful nature">
+      <h3>Majuli</h3>
+      <p>Assam — river islands and traditional village life.</p>
+    </div>
+
+    <div class="card">
+      <img src="C:\Users\ADMIN\Downloads\kochi.jfif" alt="Coastal destination">
+      <h3>Fort Kochi</h3>
+      <p>Kerala — art, cafes and coastal culture.</p>
+    </div>
+
+    <div class="card">
+      <img src="C:\Users\ADMIN\Downloads\meghalaya.avif" alt="Green forest">
+      <h3>Mawlynnong</h3>
+      <p>Meghalaya — green lanes and village traditions.</p>
+    </div>
+
+    <div class="card">
+      <img src="C:\Users\ADMIN\Downloads\pondi2.jfif" alt="Sunny beach">
+      <h3>Pondicherry</h3>
+      <p>Puducherry — seaside cafes and coastal walks.</p>
+    </div>
+  </div>
+</section>
+
+<section class="local" id="local">
+  <h2>More than just a place. 🌶️</h2>
+  <p>Meet the people, taste the food and discover the traditions.</p>
+
+  <div class="cards">
+    <div class="card">
+      <img src="C:\Users\ADMIN\Downloads\co.jfif" alt="Traditional streets">
+      <h3>Local Customs</h3>
+      <p>Discover traditional clothing, festivals, crafts and everyday life.</p>
+    </div>
+
+    <div class="card">
+      <img src="C:\Users\ADMIN\Downloads\food.jfif" alt="Local food">
+      <h3>Food Trails</h3>
+      <p>From street snacks to regional meals, explore flavours worth travelling for.</p>
+    </div>
+
+    <div class="card">
+    <img src="C:\Users\ADMIN\Downloads\sooru kadai.jfif" alt="Restaurant dining">
+      <h3>Local Restaurants</h3>
+      <p>Look beyond chains and discover the places locals love to eat.</p>
+    </div>
+  </div>
+</section>
+
+<section class="reviews" id="reviews">
+  <h2>Notes from fellow wanderers ★</h2>
+  <p>A little love from the travel community.</p>
+
+  <div class="cards">
+    <div class="review">
+      <p class="stars">★★★</p>
+      <p>"Found places I never knew existed. My next trip is planned!"</p>
+      <h3>— A Happy Wanderer</h3>
+    </div>
+
+    <div class="review">
+      <p class="stars">★★★★</p>
+      <p>"The perfect mix of peaceful escapes and colourful adventures."</p>
+      <h3>— A Curious Soul</h3>
+    </div>
+
+    <div class="review">
+      <p class="stars">★★★★★</p>
+      <p>"A reminder that the best adventures are off the beaten path."</p>
+      <h3>— A Travel Lover</h3>
+    </div>
+  </div>
+</section>
+
+<section class="support" id="support">
+  <h2>Need a little help?</h2>
+  <p>Questions about a destination or planning your next adventure?</p>
+  <p>We're here to help you find your way.</p>
+  <a href="https://www.incredibleindia.gov.in/">
+    <button>EXPLORE INDIA ↗</button>
+  </a>
+</section>
+
+<footer>
+  <p>offbeat. · Made for wandering ✳</p>
+  <p><a href="login.html">Login</a> | <a href="#places">Explore</a> | <a href="#support">Support</a></p>
+</footer>
+
+</body>
+</html>
